@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标题："
+            android:textSize="25dp" />
+        <EditText
+            android:id="@+id/update_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="输入标题"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="内容："
+            android:textSize="25dp" />
+        <EditText
+            android:id="@+id/update_translate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="输入内容"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Example："
+            android:textSize="25dp"
+            android:visibility="invisible"/>
+        <EditText
+            android:id="@+id/update_example"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Type Example Here"
+            android:visibility="invisible"/>
+    </LinearLayout>
+</LinearLayout>

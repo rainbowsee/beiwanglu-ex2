@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/wordadd"
+        android:title="添加备忘录"
+        android:icon="@drawable/add"
+        />
+    <item
+        android:id="@+id/word_zero"
+        android:title="清除搜索结果"
+        />
+</menu>
